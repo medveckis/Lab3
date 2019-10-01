@@ -44,6 +44,7 @@ infix fun Set.diff(set: Set): Set = {it -> invoke(it) and !set.invoke(it)}
 fun Set.filter(predicate: (Int) -> Boolean): Set = {it -> invoke(it) == predicate(it)}
 
 /** =========== For brave enough =========== */
+/** =========== I"m brave enough :) ======== */
 
 const val BOUND = 1000
 const val ZERO = 0
